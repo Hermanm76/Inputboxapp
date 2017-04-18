@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b2b3acd1-bc11-4188-8e51-d286f31519bc" name="InputBox" linkedPackageId="55c91a43-5bab-4807-b189-87d341d3842c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c65880dc-e12e-428f-ae7a-f936df309066">
+      <profileInstance Id="c04092e2-fc1a-4556-b90a-31965ae2b58b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="741e1df1-0de0-4ae0-bdf9-94865cfbc6ed">
+      <profileInstance Id="53878373-455f-4566-ae85-2baaf58388f5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c9920e95-bef9-4cfb-80dc-11c67bd98548" name="InputBox" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="deea26ec-4490-47a2-beac-259b22539cb8" />
+        <ownedAttributesInternal>
+          <property Id="03fa1a32-6727-4189-8e47-38389e6f39ed" name="Form" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3c8f8be2-85e0-484f-b1cd-6603c929a129" />
+          </property>
+          <property Id="b6d816f2-543b-45d0-a4a0-72f74322e121" name="Form_titel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9bc65069-00cb-4ff7-b667-814461ddd847" />
+          </property>
+          <property Id="7c0dcc3e-fc65-4658-aa11-e6e047474858" name="Form_tekst" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9fbb88d9-724b-4786-9011-39ab6b00dd76" />
+          </property>
+          <property Id="23b888a1-7c60-4367-8782-9128ff8939eb" name="Ok_button" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="759f2cd5-eb9a-406e-a2bf-97d58c6bcea1" />
+          </property>
+          <property Id="acb16bae-7b6d-4626-a23c-030999451893" name="Annuleer_button" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b3d4359e-e8ab-4259-82b7-aacd96d60434" />
+          </property>
+          <property Id="17e77912-dad2-4b21-a6a4-580578f9bff0" name="Intevoerentekst" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9972077e-9058-41c6-a834-a74804c6cbd2" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="3e404ad2-e7a7-4d55-84a3-e0fd9bf9c25a" name="returnIntevoerentekst" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3e65e56c-bad6-45e9-ab27-2a0645c31c68" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="55c91a43-5bab-4807-b189-87d341d3842c" name="InputBox">
+    <elementDefinition Id="0742d166-441f-452c-955e-4af9451b6fc7" />
+  </package>
+</logicalClassDesignerModel>

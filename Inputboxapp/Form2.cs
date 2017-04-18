@@ -36,7 +36,7 @@ namespace Inputboxapp
         {
             InputBox2.invoerVeldTekst = form2_txt_input.Text;
             label.Text = form2_txt_input.Text;
-            this.Close();
+            //this.Close();
         }
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)

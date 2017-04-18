@@ -24,7 +24,7 @@ namespace Inputboxapp
             // if (result == DialogResult.Cancel) label1.Text = null; else label1.Text = box.Value;
 
 
-            InputBox2 box = new InputBox2(label1);
+            InputBox2 box = new InputBox2(label1,textBox1.Text);
             label1.Text = box.invoerveld();
         }
 
